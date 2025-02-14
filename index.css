@@ -37,11 +37,43 @@ header img {
   display: flex;
   gap: 20px;
   align-items: center;
-  padding: 20px;
+  padding: 20px 35px;
   padding-bottom: 80px;
 }
 .intro h1 {
-  font-size: 55px;
+  font-size: 58px;
+  margin: 20px 0px;
 }
 .intro p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.action-buttons {
+  margin: 20px 0px;
+  background-color: white;
+  display: flex;
+  gap: 40px;
+  border-radius: 6px;
+  padding: 12px 20px;
+  width: max-content;
+}
+.action-buttons button {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.action-buttons button:last-child {
+  color: #00a082ff;
+  background-color: rgba(0, 160, 131, 0.203);
+  border-radius: 24px;
+}
+.action-buttons ion-icon {
+  color: inherit;
+  font-size: 25px;
 }
