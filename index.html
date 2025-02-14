@@ -3,7 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Glovo: whatever you order, in minutes!</title>
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <a href="./index.html">
+        <img src="./images/logo.svg" alt="glovo logo" />
+      </a>
+      <nav>
+        <a href="#" class="green-link">
+          <ion-icon name="person-outline"></ion-icon> Login</a
+        >
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="video-side">
+          <video
+            src="./images/address-container-animation (1).webm"
+            muted
+            autoplay
+            loop
+          ></video>
+        </div>
+        <div class="text-side">
+          <h1>Food delivery and more</h1>
+          <p>Groceries, shops, pharmacies, anything!</p>
+          <div class="action-buttons">
+            <button>
+              <ion-icon name="location-outline"></ion-icon>What is your address?
+            </button>
+            <button>
+              <ion-icon name="navigate-outline"></ion-icon>Use current location
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
